@@ -98,7 +98,7 @@ export default function Hero() {
                 <img
                   src="/images/ahsan-sajol.png"
                   alt="Portrait of Shamim Ahsan"
-                  className="h-full w-full object-cover object-top sm:mr-6 md:mr-10"
+                  className="h-full w-full object-cover object-top mr-4 sm:mr-6 md:mr-10"
                 />
               </div>
             </div>
