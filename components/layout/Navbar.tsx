@@ -8,32 +8,32 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const menuItems = [
-    { name: "Features", href: "#" },
-    { name: "Featured Projects", href: "#" },
-    { name: "All Projects", href: "#" },
-    { name: "Skills", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Features", href: "/#features" },
+    { name: "Featured Projects", href: "/#projects" },
+    { name: "All Projects", href: "/projects" },
+    { name: "Skills", href: "/#skills" },
+    { name: "Contact", href: "/#contact" },
   ];
 
   return (
     <nav className="w-full bg-primary border-b border-white/10 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-
         {/* LEFT: Logo */}
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-orange-500 flex items-center justify-center font-bold">
+        <Link href="/#home" className="flex items-center gap-3">
+          <div className="w-9 h-9 rounded-full bg-orange-500 flex items-center justify-center font-bold text-white">
             AS
           </div>
           <span className="font-semibold text-lg text-white">ahsanSajol</span>
-        </div>
+        </Link>
 
         {/* DESKTOP MENU */}
-        <div className="hidden md:mr-[] md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-8">
           {menuItems.map((item, i) => (
             <Link
               key={i}
               href={item.href}
               className="text-white hover:text-accent transition duration-300"
+              onClick={() => setOpen(false)}
             >
               {item.name}
             </Link>
@@ -45,8 +45,10 @@ export default function Navbar() {
             download
             className="bg-gradient-to-r from-orange-500 to-orange-600 px-5 py-2 rounded-full flex items-center gap-2 shadow-lg hover:scale-105 transition"
           >
-            <span className="flex items-center gap-1"><FaArrowDown />
- Resume</span> 
+            <span className="flex items-center gap-1">
+              <FaArrowDown />
+              Resume
+            </span>
           </a>
         </div>
 
@@ -55,9 +57,15 @@ export default function Navbar() {
           onClick={() => setOpen(!open)}
           className="md:hidden flex flex-col gap-1"
         >
-          <span className={`w-6 h-[2px] bg-white transition ${open && "rotate-45 translate-y-[6px]"}`} />
-          <span className={`w-6 h-[2px] bg-white transition ${open && "opacity-0"}`} />
-          <span className={`w-6 h-[2px] bg-white transition ${open && "-rotate-45 -translate-y-[6px]"}`} />
+          <span
+            className={`w-6 h-[2px] bg-white transition ${open && "rotate-45 translate-y-[6px]"}`}
+          />
+          <span
+            className={`w-6 h-[2px] bg-white transition ${open && "opacity-0"}`}
+          />
+          <span
+            className={`w-6 h-[2px] bg-white transition ${open && "-rotate-45 -translate-y-[6px]"}`}
+          />
         </button>
       </div>
 

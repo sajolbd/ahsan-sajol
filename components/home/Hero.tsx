@@ -5,7 +5,6 @@ import { FaEnvelope, FaFacebookF, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa6";
 import { FaEye } from "react-icons/fa";
 
-
 const whatsappLink = "https://wa.me/8801779024048";
 
 const socialLinks = [
@@ -28,7 +27,10 @@ const socialLinks = [
 
 export default function Hero() {
   return (
-    <section className="w-full overflow-x-clip bg-primary text-white">
+    <section
+      id="home"
+      className="w-full scroll-mt-24 overflow-x-clip bg-primary text-white"
+    >
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-12 sm:py-16 md:grid-cols-2">
         <div className="text-center md:text-left">
           <p className="mb-3 text-sm font-medium text-accent sm:text-base">
@@ -36,12 +38,13 @@ export default function Hero() {
           </p>
 
           <h1 className="mb-5 text-3xl font-bold leading-tight sm:mb-6 sm:text-4xl md:text-6xl">
-             Ahsan Sajol<br />
+            Ahsan Sajol
+            <br />
             <span className="text-accent">Software Engineer</span>
           </h1>
-            <h2 className="mb-6 text-lg font-semibold sm:text-xl md:text-2xl">
-              A Full Stack Developer
-            </h2>
+          <h2 className="mb-6 text-lg font-semibold sm:text-xl md:text-2xl">
+            A Full Stack Developer
+          </h2>
           <p className="mx-auto mb-8 max-w-lg text-sm text-white/70 sm:text-base md:mx-0">
             I build modern, scalable web applications using MERN stack and
             Next.js.
@@ -53,8 +56,9 @@ export default function Hero() {
               className="rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-center font-medium shadow-lg transition hover:scale-105"
             >
               <span className="flex items-center gap-1">
-              <FaEye />
- View Work <FaArrowDown size={10}/></span> 
+                <FaEye />
+                View Work <FaArrowDown size={10} />
+              </span>
             </Link>
 
             <a
@@ -68,7 +72,10 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mt-5 flex flex-wrap items-center justify-center gap-3 md:justify-start">
+          <div
+            id="contact"
+            className="mt-5 flex scroll-mt-24 flex-wrap items-center justify-center gap-3 md:justify-start"
+          >
             {socialLinks.map(({ name, href, icon: Icon }) => {
               return (
                 <a

@@ -30,7 +30,7 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section className="bg-primary text-white md:py-12 py-8">
+    <section id="skills" className="bg-primary text-white md:py-12 py-8 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
         <div className="text-center mb-14">
