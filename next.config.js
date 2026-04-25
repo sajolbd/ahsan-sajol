@@ -40,6 +40,22 @@ const nextConfig = {
     ],
   },
   skipTrailingSlashRedirect: true,
+  async rewrites() {
+    return [
+      {
+        source: '/features',
+        destination: '/?section=features',
+      },
+      {
+        source: '/featured-projects',
+        destination: '/?section=projects',
+      },
+      {
+        source: '/skills',
+        destination: '/?section=skills',
+      },
+    ];
+  },
   // Add headers for PDF files
   async headers() {
     return [

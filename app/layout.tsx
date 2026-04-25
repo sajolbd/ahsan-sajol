@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-
 import ClientLayout from "./client-layout";
 
 import { DM_Mono, DM_Sans, Playfair_Display } from "next/font/google";
 import Navbar from "components/layout/Navbar";
+import Footer from "components/layout/Footer";
 
 /* ---------------- FONTS ---------------- */
 
@@ -45,7 +45,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 /* ---------------- ROOT LAYOUT ---------------- */
 
 export default function RootLayout({
@@ -66,7 +65,7 @@ export default function RootLayout({
           <main>{children}</main>
         </ClientLayout>
 
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

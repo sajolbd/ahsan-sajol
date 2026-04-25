@@ -1,7 +1,9 @@
+import ContactSection from "components/home/ContactSection";
 import Hero from "components/home/Hero";
 import ProjectsSection from "components/home/ProjectsSection";
+import SectionRouteScroller from "components/home/SectionRouteScroller";
 import SkillsSection from "components/home/SkillsSection";
-import ImpactSection from "components/ImpactSection";
+import ImpactSection from "components/home/ImpactSection";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <ImpactSection />
       <SkillsSection />
       <ProjectsSection />
+      <ContactSection />
+      <SectionRouteScroller />
     </>
   );
 }
