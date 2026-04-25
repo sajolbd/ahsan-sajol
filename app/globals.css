@@ -4,10 +4,30 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-color: #f97316 #0b1028;
+  scrollbar-width: thin;
 }
 
 body {
   font-family: Consolas, monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #0b1028 0%, #12183c 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 3px solid #0b1028;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #fb923c 0%, #f97316 55%, #ea580c 100%);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #fdba74 0%, #fb923c 45%, #f97316 100%);
 }
 p {
   font-family: Consolas, monospace;
@@ -28,4 +48,22 @@ h6 {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@keyframes project-card-shine {
+  0% {
+    transform: translateX(-220%) skewX(-12deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(520%) skewX(-12deg);
+    opacity: 0;
+  }
+}
+
+.project-card:hover .project-card-shine {
+  animation: project-card-shine 0.95s ease;
 }
