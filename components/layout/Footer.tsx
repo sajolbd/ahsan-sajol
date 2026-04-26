@@ -26,12 +26,12 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-primary text-white before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-gradient-to-r before:from-transparent before:via-orange-400 before:to-transparent">
+    <footer className="bg-primary text-white">
       <div className="mx-auto max-w-7xl px-4 py-16">
         {/* Top */}
-        <div className="grid items-center gap-12 md:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             <div className="mb-6 flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent font-bold text-white">
                 AS
@@ -39,7 +39,7 @@ export default function Footer() {
               <span className="text-xl font-semibold">ahsanSajol</span>
             </div>
 
-            <p className="max-w-md text-sm leading-8 text-white/60">
+            <p className="max-w-sm text-sm leading-8 text-white/60">
               Full Stack Developer & SEO Expert specializing in
               performance-first web applications. I build scalable solutions
               with Next.js, TypeScript, and MongoDB, combining technical
@@ -59,7 +59,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:nahid.pirom.06@gmail.com"
+                href="mailto:sajolibn@gmail.com"
                 className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium transition hover:border-accent/60 hover:bg-white/10"
               >
                 <Mail size={16} className="text-accent" />
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="md:justify-self-center">
+          <div>
             <h3 className="mb-6 text-lg font-semibold">Quick Links</h3>
             <div className="grid grid-cols-2 gap-y-4">
               {quickLinks.map((link) => (
@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="lg:col-span-2 lg:justify-self-center">
+          <div className="lg:col-span-2">
             <h3 className="mb-6 text-lg font-semibold">Contact & Social</h3>
 
             <div className="space-y-4 text-white/60">
@@ -97,7 +97,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:nahid.pirom.06@gmail.com"
+                href="mailto:sajolibn@gmail.com"
                 className="block transition hover:text-accent"
               >
                 sajolibn@gmail.com
