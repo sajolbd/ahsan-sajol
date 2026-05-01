@@ -85,8 +85,8 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="lg:col-span-2">
-            <h3 className="mb-6 text-lg font-semibold">Contact & Social</h3>
+          <div>
+            <h3 className="mb-6 text-lg font-semibold">Contact</h3>
 
             <div className="space-y-4 text-white/60">
               <a
@@ -103,6 +103,11 @@ export default function Footer() {
                 sajolibn@gmail.com
               </a>
             </div>
+          </div>
+
+          {/* Social */}
+          <div>
+            <h3 className="mb-6 text-lg font-semibold">Social</h3>
 
             <div className="mt-6 flex items-center gap-4">
               {socialLinks.map(({ name, href, icon: Icon }) => (
