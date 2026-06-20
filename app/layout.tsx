@@ -21,14 +21,14 @@ const josefinSans = Josefin_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ahsan-sajol.vercel.app/"),
-  title: "Ahsan Sajol",
-  description: "Ahsan Sajol Website",
+  title: "Ahsan Sajol | Full Stack Developer & SEO Expert",
+  description: "Full Stack Software Engineer & SEO Expert specializing in Next.js, TypeScript, and high-performance web applications that rank and convert.",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Ahsan Sajol",
-    description: "Ahsan Sajol Website",
+    title: "Ahsan Sajol | Full Stack Developer & SEO Expert",
+    description: "Full Stack Software Engineer & SEO Expert specializing in Next.js, TypeScript, and high-performance web applications that rank and convert.",
     url: "https://ahsan-sajol.vercel.app/",
     siteName: "Ahsan Sajol",
     locale: "en_US",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ahsan Sajol",
-    description: "Ahsan Sajol Website",
+    title: "Ahsan Sajol | Full Stack Developer & SEO Expert",
+    description: "Full Stack Software Engineer & SEO Expert specializing in Next.js, TypeScript, and high-performance web applications that rank and convert.",
     images: ["https://ahsan-sajol.vercel.app/images/ahsan-sajol.png?v=2"],
   },
   other: {
