@@ -33,21 +33,11 @@ export const metadata: Metadata = {
     siteName: "Ahsan Sajol",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "https://ahsan-sajol.vercel.app/images/ahsan-sajol.png?v=2",
-        width: 1200,
-        height: 630,
-        alt: "Ahsan Sajol - Full Stack Developer & SEO Expert",
-        type: "image/png",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ahsan Sajol | Full Stack Developer & SEO Expert",
     description: "Full Stack Software Engineer & SEO Expert specializing in Next.js, TypeScript, and high-performance web applications that rank and convert.",
-    images: ["https://ahsan-sajol.vercel.app/images/ahsan-sajol.png?v=2"],
   },
   other: {
     "og:updated_time": new Date().toISOString(),
