@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://ahsan-sajol.vercel.app/images/ahsan-sajol.png",
+        url: "https://ahsan-sajol.vercel.app/images/ahsan-sajol.png?v=2",
         width: 1200,
         height: 630,
         alt: "Ahsan Sajol - Full Stack Developer & SEO Expert",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ahsan Sajol",
     description: "Ahsan Sajol Website",
-    images: ["https://ahsan-sajol.vercel.app/images/ahsan-sajol.png"],
+    images: ["https://ahsan-sajol.vercel.app/images/ahsan-sajol.png?v=2"],
   },
 };
 
