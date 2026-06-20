@@ -49,6 +49,9 @@ export const metadata: Metadata = {
     description: "Ahsan Sajol Website",
     images: ["https://ahsan-sajol.vercel.app/images/ahsan-sajol.png?v=2"],
   },
+  other: {
+    "og:updated_time": new Date().toISOString(),
+  },
 };
 
 /* ---------------- ROOT LAYOUT ---------------- */
