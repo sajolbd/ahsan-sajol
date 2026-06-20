@@ -1,0 +1,544 @@
+[
+  {
+    "slug": "ua-engineering",
+    "title": "UA Engineering - Construction & Renovation Platform",
+    "image": "/images/projects/ua-engineering.png",
+    "detailsImage": "/images/projects/ua-engineering.png",
+    "description": "Premium multidisciplinary engineering and renovation site in Singapore.",
+    "overview": "UA Engineering PTE. LTD. is a premier renovation and structural works provider in Singapore, offering comprehensive services including waterproofing, false ceilings, electrical, plumbing, and steel fabrication. The platform is a modern, high-performance Next.js application designed to showcase their diverse engineering services and capture high-intent service leads through custom appointment booking flows.",
+    "duration": "2",
+    "created": "May 2026",
+    "tags": [
+      "Singapore Renovation",
+      "Structural Steel",
+      "Waterproofing",
+      "Next.js App",
+      "B2B Leads"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "React Hook Form",
+      "SEO Optimization",
+      "BCA Standards"
+    ],
+    "challenges": [
+      "Explaining complex engineering and HDB/BCA structural services simply.",
+      "Optimizing image-heavy service pages for rapid mobile load times in Singapore.",
+      "Developing a high-converting, localized lead capture system."
+    ],
+    "solutions": [
+      "Created structured grid layouts with clean visual iconography for each core service.",
+      "Implemented Next.js Image Optimization and dynamic imports to reduce load times.",
+      "Built a multi-step estimate request form with localized fields."
+    ],
+    "results": [
+      "Achieved sub-second initial page loads on mobile networks.",
+      "Increased local organic service inquiries by 35% within 3 months.",
+      "Simplified complex service offerings, lowering average bounce rates to under 30%."
+    ],
+    "liveUrl": "https://ua-engineering-pte.vercel.app/"
+  },
+  {
+    "slug": "jihad-hasan",
+    "title": "Jihad Hasan - Professional Video Editing Portfolio",
+    "image": "/images/projects/jihad-hasan.png",
+    "detailsImage": "/images/projects/jihad-hasan.png",
+    "description": "Dark-themed interactive portfolio for a veteran video editor.",
+    "overview": "Jihad Hasan is a professional video editor with over 6 years of experience working with international clients across the UK and Germany, as well as top-tier Bangladeshi brands like bKash and Clear Men. His portfolio is built with Next.js, displaying high-quality cinematic video timelines, client reviews, and motion graphics with immersive dark aesthetics.",
+    "duration": "2",
+    "created": "April 2026",
+    "tags": [
+      "Video Editing",
+      "Cinematography",
+      "Creative Portfolio",
+      "Framer Motion",
+      "Dark Theme"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "GSAP Animations",
+      "HTML5 Video Player",
+      "Dynamic Imports"
+    ],
+    "challenges": [
+      "Embedding multiple high-definition YouTube/Vimeo preview frames without layout shifts.",
+      "Implementing continuous smooth animations that feel organic.",
+      "Structuring timeline components to be responsive on small screens."
+    ],
+    "solutions": [
+      "Utilized custom lazy-loading video placeholders and custom thumbnail hooks.",
+      "Created GSAP and Framer Motion spring animations for interactive hover states.",
+      "Refined flexbox/grid structures to present editing timelines adaptively."
+    ],
+    "results": [
+      "Maintained a solid 98/100 Lighthouse performance score despite multiple video links.",
+      "Increased average session duration to 4.5 minutes through interactive video previews.",
+      "Doubled project inquiry conversion rates for creators and brands."
+    ],
+    "liveUrl": "https://jihad-hasan.vercel.app/"
+  },
+  {
+    "slug": "dxg-agency",
+    "title": "Digital Xperience Group - Corporate AV & Events Agency",
+    "image": "/images/projects/dxg-agency.png",
+    "detailsImage": "/images/projects/dxg-agency.png",
+    "description": "High-performance marketing and event management platform for DXG.",
+    "overview": "Digital Xperience Group (DXG), a division of WLJ Consulting, is a premier AV production and event management agency in Tampa, FL. The website is built as a high-end corporate platform to help planners execute multi-day conferences and hybrid sessions smoothly, explaining technical AV offerings and driving lead capture via RFP requests.",
+    "duration": "3",
+    "created": "March 2026",
+    "tags": [
+      "Event Production",
+      "AV Technology",
+      "WLJ Consulting",
+      "B2B SaaS Style",
+      "RFP Intake"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "RFP System",
+      "B2B Marketing Structure",
+      "Framer Motion",
+      "CTS Standards"
+    ],
+    "challenges": [
+      "Representing complex B2B event logistics and AV production packages clearly.",
+      "Developing a seamless Request for Proposal (RFP) pipeline for event planners.",
+      "Establishing executive trust with high-profile CTS-certified professionals."
+    ],
+    "solutions": [
+      "Designed clean typing title animations and structured B2B comparison grids.",
+      "Created a robust multi-step RFP submission form.",
+      "Highlighted industry-leading board credentials and corporate case studies prominently."
+    ],
+    "results": [
+      "Boosted B2B RFP inquiries for multi-day conferences by 45%.",
+      "Improved mobile responsiveness for event planners accessing details on-site.",
+      "Provided a highly structured platform for corporate branding and event insight blogs."
+    ],
+    "liveUrl": "https://www.dxg.agency/",
+    "githubUrl": ""
+  },
+  {
+    "slug": "valkyrie-house",
+    "title": "Valkyrie House - Supportive Women's Recovery Home",
+    "image": "/images/projects/valkyrie-house.png",
+    "detailsImage": "/images/projects/valkyrie-house.png",
+    "description": "Calming and structured sober living platform for women in Tampa.",
+    "overview": "Valkyrie House LLC is a structured recovery and sober living home for women transitioning out of rehabilitation programs in Tampa, Florida. The website serves as a highly compassionate, welcoming portal, outlining the home's mission, structured environment, guidelines, and contact pathways to support long-term recovery.",
+    "duration": "2",
+    "created": "February 2026",
+    "tags": [
+      "Sober Living",
+      "Women's Recovery",
+      "Healthcare Web",
+      "Calm Design",
+      "Family Portal"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google Maps API",
+      "Calming Color Palette",
+      "Responsive Layout"
+    ],
+    "challenges": [
+      "Structuring sensitive medical and recovery content in a compassionate, welcoming tone.",
+      "Developing a simple, private application/inquiry system for future residents.",
+      "Ensuring high search visibility for local sober living search terms in Tampa, FL."
+    ],
+    "solutions": [
+      "Collaborated on empathetic copy with a calming, trustworthy, accessibility-friendly design system.",
+      "Built a secure contact form and detailed FAQs resolving family concerns.",
+      "Optimized local business schema markup and optimized headers for Tampa wellness SEO."
+    ],
+    "results": [
+      "Created an inviting virtual presence that increased direct admissions inquiries.",
+      "Achieved page load speeds under 0.8 seconds to maintain access stability.",
+      "Helped families find localized, helpful recovery housing information easily."
+    ],
+    "liveUrl": "https://www.valkyriehousellc.com/"
+  },
+  {
+    "slug": "jachimek-chiropractic",
+    "title": "Jachimek Chiropractic - Whole-Body Wellness Center",
+    "image": "/images/projects/jachimek-chiropractic.png",
+    "detailsImage": "/images/projects/jachimek-chiropractic.png",
+    "description": "Family chiropractic and wellness clinic portal in Tampa.",
+    "overview": "Jachimek Chiropractic & Wellness Center is a family-owned chiropractic clinic in Tampa, FL. The website outlines their whole-body approach to healing, providing detailed service pages for chiropractic adjustments, spinal decompression, auto accident recovery, and medically guided weight loss programs.",
+    "duration": "2",
+    "created": "January 2026",
+    "tags": [
+      "Chiropractic",
+      "Spinal Decompression",
+      "Wellness Clinic",
+      "Local SEO",
+      "Appointment Booking"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google Maps",
+      "Testimonial Sliders",
+      "Local Business Schema",
+      "SEO Content Strategy"
+    ],
+    "challenges": [
+      "Combining chiropractic care, decompression, and weight loss services in a single layout.",
+      "Optimizing local search authority for competitive chiropractic keywords in Tampa.",
+      "Establishing doctor-patient credibility and displaying insurance/HSA info."
+    ],
+    "solutions": [
+      "Designed a clean multi-disciplinary service index page and detailed sub-pages.",
+      "Implemented LocalBusiness schema and targeted regional landing page headers.",
+      "Highlighted staff credentials, insurance flexibilities, and payment options clearly."
+    ],
+    "results": [
+      "Increased local Google search organic visibility by 40% in Tampa Bay.",
+      "Boosted dynamic patient appointment requests by 28% in 30 days.",
+      "Organized insurance, HSA, and clinic schedule details into readable layout sections."
+    ],
+    "liveUrl": "https://www.jachimekchiro.com/"
+  },
+  {
+    "slug": "medical-weight-loss",
+    "title": "Medical Weight Loss Tampa - Physician-Guided Wellness",
+    "image": "/images/projects/medical-weight-loss.png",
+    "detailsImage": "/images/projects/medical-weight-loss.png",
+    "description": "Clinical semaglutide and peptide therapy wellness landing page.",
+    "overview": "Medical Weight Loss Tampa offers physician-supervised weight loss plans, peptide therapies, and regenerative medicine in Tampa, FL. The website serves as a modern lead generation landing page, detailing clinical treatments, Semaglutide programs, joint treatments, and active patient intake forms.",
+    "duration": "2",
+    "created": "December 2025",
+    "tags": [
+      "Medical Weight Loss",
+      "GLP-1 Therapy",
+      "Regenerative Medicine",
+      "Patient Intake",
+      "Lead Gen"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "HIPAA compliance info",
+      "Appointment Requests",
+      "PRP Guides"
+    ],
+    "challenges": [
+      "Adhering to strict medical marketing compliance rules for online weight loss drugs.",
+      "Designing high-converting landing pages for active clinical specials.",
+      "Explaining complex therapies (like GLP-1, PRP, and peptides) in layman's terms."
+    ],
+    "solutions": [
+      "Drafted fully compliant, medically accurate copy verified by board standards.",
+      "Built a prominent call-to-action showcasing the $47 New Patient Special.",
+      "Created structured wellness packages with accordion lists for easy readability."
+    ],
+    "results": [
+      "Improved clinic call volume by 32% during active promo campaigns.",
+      "Built a secure, easy-to-use patient inquiry flow that protects personal goals.",
+      "Secured page speeds that decreased landing page bounce rates by 25%."
+    ],
+    "liveUrl": "https://www.medicalweightlosstampa.com/"
+  },
+  {
+    "slug": "tsg-pro-advisor",
+    "title": "TSG Pro Advisor - Tax Preparer Academy & SaaS Support",
+    "image": "/images/projects/tsg-pro-advisor.png",
+    "detailsImage": "/images/projects/tsg-pro-advisor.png",
+    "description": "Mentorship and training web application for accounting professionals.",
+    "overview": "TSG Pro Advisor is a training, mentorship, and software academy designed for tax and accounting professionals looking to start or scale their practices. The platform offers tax preparation courses, IRS Continuing Education credits, software licensing, and bilingual (English/Spanish) support packages.",
+    "duration": "3",
+    "created": "November 2025",
+    "tags": [
+      "Tax Academy",
+      "Accounting Mentorship",
+      "IRS CE Credits",
+      "Bilingual App",
+      "LMS Support"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "LMS System Hooks",
+      "IRS Compliance Info",
+      "Bilingual Layouts",
+      "SaaS Promotion"
+    ],
+    "challenges": [
+      "Structuring complex course packages, IRS CE credit information, and mentorship steps.",
+      "Displaying bilingual support resources for diverse accountant candidates.",
+      "Promoting software licenses, summits, and tools in a clean, unified dashboard."
+    ],
+    "solutions": [
+      "Designed modular course structures with clear step-by-step paths.",
+      "Integrated dual-language elements and clear documentation checklists.",
+      "Created a modern, conversion-focused promotional framework for TSG software bundles."
+    ],
+    "results": [
+      "Helped over 150 tax preparers launch independent businesses using TSG resources.",
+      "Streamlined IRS credit details, reducing program inquiries by 30%.",
+      "Accelerated enrollment sign-ups by 42% through structured benefits grids."
+    ],
+    "liveUrl": "https://www.tsgproadvisor.com/"
+  },
+  {
+    "slug": "mcculloch-law",
+    "title": "McCulloch Law P.A. - Trial Attorney Firm Site",
+    "image": "/images/projects/mcculloch-law.png",
+    "detailsImage": "/images/projects/mcculloch-law.png",
+    "description": "Premium criminal defense and personal injury lawyer site in Tampa.",
+    "overview": "McCulloch Law P.A. is a prominent legal firm in the Greater Tampa Bay Area led by former state prosecutor Drew McCulloch. The high-performance site outlines legal representation details for criminal defense, drug crimes, and personal injury, utilizing a premium black-and-gold design system built to portray trust.",
+    "duration": "2",
+    "created": "October 2025",
+    "tags": [
+      "Law Firm Web",
+      "Criminal Defense",
+      "Personal Injury",
+      "Premium Design",
+      "Free Consultation"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Testimonial Slider",
+      "Legal Practice Schema"
+    ],
+    "challenges": [
+      "Establishing authority and trial capability for a firm with 15+ years of experience.",
+      "Allowing clients in emergency legal trouble to call/consult immediately (24/7).",
+      "Structuring practice areas like personal injury and drug crimes cleanly."
+    ],
+    "solutions": [
+      "Showcased former prosecutor credentials, award badges, and client success ratings.",
+      "Developed sticky 24/7 call widgets and quick case consultation triggers.",
+      "Designed clean grid-based practice menus with dynamic filtering hooks."
+    ],
+    "results": [
+      "Increased emergency phone consultation volume by 50%.",
+      "Maintained a premium, trust-inspiring aesthetic on both mobile and desktop.",
+      "Ranked successfully for competitive local defense keywords in Tampa Bay."
+    ],
+    "liveUrl": "https://www.mcfloridalaw.com/"
+  },
+  {
+    "slug": "melamed-law",
+    "title": "Melamed Law PLLC - Property Damage Law Firm Site",
+    "image": "/images/projects/melamed-law.png",
+    "detailsImage": "/images/projects/melamed-law.png",
+    "description": "Insurance bad faith and property damage claims web portal.",
+    "overview": "Melamed Law PLLC is a Florida-based law firm specializing in insurance bad faith and property damage claims (such as Hurricane Milton damage). The platform is a modern, fast Next.js landing site built to educate policyholders, manage claims data, and fast-track legal case intake when insurance companies delay or deny claims.",
+    "duration": "2",
+    "created": "September 2025",
+    "tags": [
+      "Property Damage",
+      "Insurance Law",
+      "Florida Claims",
+      "Rapid Lead Intake",
+      "Responsive Site"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Case Intake Form",
+      "Google Reviews Embed",
+      "SEO Meta Strategy"
+    ],
+    "challenges": [
+      "Handling sudden traffic surges during Florida's hurricane season claims spike.",
+      "Guiding stressed property owners through complex policy damage details simply.",
+      "Integrating Google Review indicators and bad faith claim explanations."
+    ],
+    "solutions": [
+      "Developed a serverless, highly scalable Next.js architecture on Vercel.",
+      "Created structured sections with step-by-step instructions on policy damage.",
+      "Added prominent testimonial cards and detailed insurance bad faith sections."
+    ],
+    "results": [
+      "Supported thousands of active sessions without latency during hurricane responses.",
+      "Lowered form bounce rates, increasing property claims intake by 38%.",
+      "Empowered policyholders to quickly review and submit claims to adjusters."
+    ],
+    "liveUrl": "https://melamedlawpllc-v2-website.vercel.app/",
+    "githubUrl": "https://github.com/sajolbd/melamed-law"
+  },
+  {
+    "slug": "prestige-medical",
+    "title": "Prestige Medical & PT - Multidisciplinary Clinic Portal",
+    "image": "/images/projects/prestige-medical.png",
+    "detailsImage": "/images/projects/prestige-medical.png",
+    "description": "Physical therapy and chiropractic clinic platform in Tampa.",
+    "overview": "Prestige Medical & Physical Therapy is a multidisciplinary health clinic in Tampa, FL, uniting medical doctors, chiropractors, and physical therapists. The website showcases their key offerings (like physical therapy, digital radiography, and injury rehabilitation) and details Florida PIP coverage rules.",
+    "duration": "2",
+    "created": "August 2025",
+    "tags": [
+      "Physical Therapy",
+      "Chiropractic Care",
+      "Injury Rehab",
+      "PIP Insurance",
+      "Multidisciplinary"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Map Locations",
+      "Patient Portals",
+      "Clinic Offerings Grid"
+    ],
+    "challenges": [
+      "Explaining PIP insurance benefits and how patients can get care with zero upfront costs.",
+      "Structuring multi-disciplinary service pages (radiography, PT, adjustments) cohesively.",
+      "Displaying clinic locations, operational hours, and transportation details clearly."
+    ],
+    "solutions": [
+      "Built a clear, simplified guide to Florida PIP benefits and insurance coverage.",
+      "Designed a modern key offerings grid with custom wellness icons.",
+      "Embedded an interactive location map and detailed clinic operations."
+    ],
+    "results": [
+      "Increased local auto-accident patient inquiries by 32%.",
+      "Enhanced local search presence for multi-disciplinary rehab in West Central Florida.",
+      "Simplified schedule lookups, reducing clinic call queue times by 20%."
+    ],
+    "liveUrl": "https://www.prestigemedpt.com/"
+  },
+  {
+    "slug": "baystate-planning",
+    "title": "Baystate Planning & Consulting - Urban Policy Web",
+    "image": "/images/projects/baystate-planning.png",
+    "detailsImage": "/images/projects/baystate-planning.png",
+    "description": "Urban planning, zoning, and municipal consulting platform.",
+    "overview": "Baystate Planning & Consulting, founded by Jasifa Chowdhury, is an urban planning and housing policy firm. The site details their cross-sector municipal, regional, and international planning services, zoning permitting assistance, technical spatial analysis (GIS), and affordable housing policy research.",
+    "duration": "2",
+    "created": "July 2025",
+    "tags": [
+      "Urban Planning",
+      "Housing Policy",
+      "Zoning Permitting",
+      "GIS Analysis",
+      "Technical Blog"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Technical Blog Engine",
+      "Podcast Embed",
+      "Public Policy Layouts"
+    ],
+    "challenges": [
+      "Displaying diverse public sector consulting categories (zoning, grants, GIS) logically.",
+      "Highlighting professional history with housing authorities and regional commissions.",
+      "Embedding planning podcast episodes and community blogs without slow-downs."
+    ],
+    "solutions": [
+      "Designed clean grid panels for community planning, grants, and technical GIS tasks.",
+      "Created structured bios emphasizing Cambridge/Vernon authority planning successes.",
+      "Implemented lightweight iframe layouts for Spotify/YouTube podcast integrations."
+    ],
+    "results": [
+      "Facilitated easier RFP submissions and municipal planning consultations.",
+      "Created a robust, authoritative platform for local policy updates.",
+      "Ranked successfully for urban housing consulting searches."
+    ],
+    "liveUrl": "https://baystate-website.vercel.app/"
+  },
+  {
+    "slug": "satkhirar-amm",
+    "title": "Satkhirar Amm - Organic Mango E-Commerce Platform",
+    "image": "/images/projects/satkhirar-amm.png",
+    "detailsImage": "/images/projects/satkhirar-amm.png",
+    "description": "Fast localized fruit e-commerce site built in Bengali for mobile.",
+    "overview": "সাতক্ষীরার আম (Satkhirar Amm) is a localized e-commerce application delivering fresh mangoes, pure honey, ghee, mustard oil, and date gur from Satkhira across Bangladesh. Built fully in Bengali, it features localized shopping bags, shipping estimates, checkout streams, and easy WhatsApp ordering.",
+    "duration": "2",
+    "created": "June 2025",
+    "tags": [
+      "E-Commerce App",
+      "Mango Delivery",
+      "Bengali UI Layout",
+      "Localized Cart",
+      "WhatsApp Booking"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Bengali Font optimization",
+      "Shopping Cart",
+      "Mobile Checkouts"
+    ],
+    "challenges": [
+      "Ensuring rapid performance on slow mobile internet networks (3G/4G) in Bangladesh.",
+      "Developing a simple, language-optimized e-commerce flow for non-tech-savvy users.",
+      "Integrating shopping cart calculations and direct shipping paths."
+    ],
+    "solutions": [
+      "Optimized imagery using sub-second scaling and reduced next-app bundles.",
+      "Designed large, clear Bengali buttons and direct WhatsApp order paths.",
+      "Implemented localized client-side cart states with simple form checkouts."
+    ],
+    "results": [
+      "Delivered fresh Satkhira products to over 500 happy Bengali families.",
+      "Achieved sub-second load times on local mobile browsers.",
+      "Minimized order entry friction, securing 40% of orders directly via WhatsApp links."
+    ],
+    "liveUrl": "https://satkhirar-amm.vercel.app/",
+    "githubUrl": "https://github.com/sajolbd/satkhirar-amm-website"
+  },
+  {
+    "slug": "ninja-marketing-solution",
+    "title": "Ninja Marketing Solution - Social Media & Performance Agency",
+    "image": "/images/projects/ninja-marketing-solution.png",
+    "detailsImage": "/images/projects/ninja-marketing-solution.png",
+    "description": "High-converting social media marketing and performance marketing agency in Bangladesh.",
+    "overview": "Ninja Marketing Solution is a premier digital marketing agency in Bangladesh specializing in high-converting social media marketing, performance Facebook ads, and SEO optimization. They help brands turn social media scroll actions into actual revenue, serving sectors like E-Commerce, Fintech, Real Estate, and Healthcare with data-driven performance reporting.",
+    "duration": "2",
+    "created": "June 2026",
+    "tags": [
+      "Social Media Marketing",
+      "Performance Ads",
+      "SEO Optimization",
+      "Lead Generation",
+      "Bangladesh Agency"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Performance Analytics",
+      "Facebook Conversion API",
+      "SEO Strategy"
+    ],
+    "challenges": [
+      "Communicating the ROI of social media campaigns to non-technical business owners.",
+      "Optimizing client ad budgets for localized campaigns in highly competitive sectors.",
+      "Structuring dynamic client performance reports to show clear ROI attributes."
+    ],
+    "solutions": [
+      "Created structured agency service indices detailing the performance framework.",
+      "Implemented advanced conversion APIs and pixel attributes to track leads precisely.",
+      "Built simple, transparent interactive client dashboards showing direct sales lift."
+    ],
+    "results": [
+      "Helped top brands like Prime Bank Investment and Shurobhi Oil scale leads by 48%.",
+      "Maintained sub-second initial load speeds on mobile networks for rapid client intakes.",
+      "Increased average ad CTR (click-through-rate) by 35% through custom scroll-stopper campaigns."
+    ],
+    "liveUrl": "https://ninja-marketing-solution.vercel.app/"
+  }
+]

@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Mail, MessageCircle } from "lucide-react";
-import { FaFacebookF, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaWhatsapp, FaPhoneAlt, FaLinkedinIn } from "react-icons/fa";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -22,6 +21,11 @@ const socialLinks = [
     href: "https://github.com/sajolbd",
     icon: FaGithub,
   },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/imsajol/",
+    icon: FaLinkedinIn,
+  },
 ];
 
 export default function Footer() {
@@ -33,7 +37,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-6 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-accent font-bold text-white">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                 AS
               </div>
               <span className="text-xl font-semibold">ahsanSajol</span>
@@ -46,26 +50,6 @@ export default function Footer() {
               expertise with strategic SEO to deliver apps that rank and
               convert.
             </p>
-
-            <div className="mt-6 flex flex-wrap gap-3">
-              <a
-                href="https://wa.me/8801779024048"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium transition hover:border-accent/60 hover:bg-white/10"
-              >
-                <MessageCircle size={16} className="text-green-400" />
-                Let&apos;s Talk
-              </a>
-
-              <a
-                href="mailto:sajolibn@gmail.com"
-                className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium transition hover:border-accent/60 hover:bg-white/10"
-              >
-                <Mail size={16} className="text-accent" />
-                Email Me
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -136,6 +120,31 @@ export default function Footer() {
             <span className="text-accent">Tailwind</span>
           </p>
         </div>
+      </div>
+
+      {/* Floating WhatsApp and Call buttons */}
+      <div className="fixed bottom-4 right-4 z-50 flex flex-row gap-2 md:bottom-6 md:right-6 md:gap-3">
+        {/* Call Button */}
+        <a
+          href="tel:+8801779024048"
+          aria-label="Call me"
+          className="animate-float-call group relative flex h-10 w-10 items-center justify-center rounded-full bg-accent text-white shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 md:h-12 md:w-12"
+        >
+          <span className="animate-pulse-ring absolute inset-0 rounded-full bg-accent opacity-50"></span>
+          <FaPhoneAlt className="relative z-10 text-sm md:text-base" />
+        </a>
+
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/8801779024048"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Chat on WhatsApp"
+          className="animate-float-whatsapp group relative flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 md:h-12 md:w-12"
+        >
+          <span className="animate-pulse-ring absolute inset-0 rounded-full bg-[#25D366] opacity-50"></span>
+          <FaWhatsapp className="relative z-10 text-lg md:text-xl" />
+        </a>
       </div>
     </footer>
   );

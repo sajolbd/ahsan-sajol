@@ -3,28 +3,16 @@ import "./globals.css";
 
 import ClientLayout from "./client-layout";
 
-import { DM_Mono, DM_Sans, Playfair_Display } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import Navbar from "components/layout/Navbar";
 import Footer from "components/layout/Footer";
 
 /* ---------------- FONTS ---------------- */
 
-const dmMono = DM_Mono({
-  weight: ["400", "500"],
+const josefinSans = Josefin_Sans({
   subsets: ["latin"],
-  variable: "--font-dm-mono",
-});
-
-const dmSans = DM_Sans({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
-  variable: "--font-dm-sans",
-});
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-playfair",
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-josefin",
 });
 
 /* ---------------- METADATA ---------------- */
@@ -32,16 +20,34 @@ const playfair = Playfair_Display({
 /* ---------------- METADATA ---------------- */
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.tripvienlaw.com"),
+  metadataBase: new URL("https://ahsan-sajol.vercel.app/"),
   title: "Ahsan Sajol",
   description: "Ahsan Sajol Website",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Ahsan Sajol",
     description: "Ahsan Sajol Website",
-    url: "https://www.tripvienlaw.com/",
+    url: "https://ahsan-sajol.vercel.app/",
     siteName: "Ahsan Sajol",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://ahsan-sajol.vercel.app/images/ahsan-sajol.png",
+        width: 1200,
+        height: 630,
+        alt: "Ahsan Sajol - Full Stack Developer & SEO Expert",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ahsan Sajol",
+    description: "Ahsan Sajol Website",
+    images: ["https://ahsan-sajol.vercel.app/images/ahsan-sajol.png"],
   },
 };
 
@@ -55,7 +61,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${dmMono.variable} ${dmSans.variable} ${playfair.variable}`}
+      className={josefinSans.variable}
     >
       <body className="bg-white antialiased">
         <Navbar />

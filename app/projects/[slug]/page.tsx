@@ -1,13 +1,43 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { FaEnvelope, FaExternalLinkAlt, FaWhatsapp } from "react-icons/fa";
-import { projects } from "projects";
+import { FaEnvelope, FaExternalLinkAlt, FaWhatsapp, FaGithub } from "react-icons/fa";
+import { projects } from "../../../projects";
+import type { Metadata } from "next";
 
 type ProjectDetailsProps = {
   params: {
     slug: string;
   };
 };
+
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    slug: project.slug,
+  }));
+}
+
+export async function generateMetadata({
+  params,
+}: ProjectDetailsProps): Promise<Metadata> {
+  const project = projects.find((p) => p.slug === params.slug);
+  if (!project) return {};
+
+  return {
+    title: `${project.title} | Ahsan Sajol`,
+    description: project.description || project.overview.slice(0, 160),
+    openGraph: {
+      title: `${project.title} | Ahsan Sajol`,
+      description: project.description || project.overview.slice(0, 160),
+      url: `https://ahsan-sajol.vercel.app/projects/${params.slug}`,
+      images: [
+        {
+          url: project.image,
+          alt: project.title,
+        },
+      ],
+    },
+  };
+}
 
 const whatsappLink = "https://wa.me/8801779024048";
 const emailLink =
@@ -49,6 +79,16 @@ export default function ProjectDetails({ params }: ProjectDetailsProps) {
               >
                 Live Demo <FaExternalLinkAlt className="text-xs" />
               </a>
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 rounded-2xl border border-white/25 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:scale-105 hover:border-accent"
+                >
+                  <FaGithub /> GitHub Repo
+                </a>
+              )}
               <a
                 href={whatsappLink}
                 target="_blank"

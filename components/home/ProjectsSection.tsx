@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { projects } from "projects";
+import { projects } from "../../projects";
+import { FaGithub } from "react-icons/fa";
 
 export default function ProjectsSection() {
   return (
@@ -17,11 +18,17 @@ export default function ProjectsSection() {
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project) => (
+          {projects.slice(0, 3).map((project) => (
             <div
               key={project.slug}
               className="group relative overflow-hidden rounded-[28px] border border-white/10 bg-[linear-gradient(180deg,rgba(15,20,52,0.98),rgba(8,11,32,0.98))] shadow-[0_24px_60px_rgba(0,0,0,0.22)] transition-all duration-500 hover:-translate-y-3 hover:border-orange-500/60 hover:shadow-[0_28px_70px_rgba(255,122,24,0.22)]"
             >
+              <Link
+                href={`/projects/${project.slug}`}
+                className="absolute inset-0 z-10"
+                aria-label={`View details for ${project.title}`}
+              />
+
               <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,140,46,0.22),transparent_38%),radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent_30%)] opacity-80" />
               <div className="project-card-shine pointer-events-none absolute inset-y-0 -left-1/3 w-1/3 -skew-x-12 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
@@ -58,13 +65,25 @@ export default function ProjectsSection() {
                   ))}
                 </div>
 
-                <Link
-                  href={`/projects/${project.slug}`}
-                  className="inline-flex items-center gap-2 text-sm font-medium text-accent transition duration-300 group-hover:translate-x-1"
-                >
-                  View Details
-                  <span aria-hidden="true">-&gt;</span>
-                </Link>
+                <div className="flex items-center justify-between">
+                  <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-500 to-orange-600 px-5 py-2.5 rounded-full text-xs font-semibold text-white shadow-lg transition duration-300 group-hover:scale-105">
+                    View Details
+                    <span className="group-hover:translate-x-1 transition duration-300" aria-hidden="true">-&gt;</span>
+                  </span>
+
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="relative z-20 inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-xs text-white/80 transition-all hover:border-orange-500/60 hover:bg-white/10 hover:text-white"
+                      title="GitHub Repository"
+                    >
+                      <FaGithub size={14} />
+                      Code
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

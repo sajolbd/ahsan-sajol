@@ -56,6 +56,15 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/project',
+        destination: '/projects',
+        permanent: true,
+      },
+    ];
+  },
   // Add headers for PDF files
   async headers() {
     return [

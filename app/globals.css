@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Consolas, monospace;
+  font-family: var(--font-josefin), sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -30,16 +30,16 @@ body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #fdba74 0%, #fb923c 45%, #f97316 100%);
 }
 p {
-  font-family: Consolas, monospace;
+  font-family: var(--font-josefin), sans-serif;
 }
-/* Headings with Playfair */
+/* Headings with Josefin Sans */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-playfair), serif;
+  font-family: var(--font-josefin), sans-serif;
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -67,3 +67,37 @@ h6 {
 .project-card:hover .project-card-shine {
   animation: project-card-shine 0.95s ease;
 }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.animate-float-whatsapp {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-call {
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
