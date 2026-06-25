@@ -123,7 +123,7 @@ export default function Hero() {
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
                 <div className="rotate-[-360deg] rounded-2xl border border-white/20 bg-white/10 px-2.5 py-1.5 text-center backdrop-blur-md sm:px-4 sm:py-2">
                   <p className="text-sm font-bold text-orange-400 sm:text-base">
-                    10+
+                    20+
                   </p>
                   <p className="text-[10px] sm:text-xs">Clients</p>
                 </div>
@@ -132,7 +132,7 @@ export default function Hero() {
               <div className="absolute left-0 top-1/2 -translate-x-1 -translate-y-1/2 sm:-translate-x-3">
                 <div className="rotate-[-360deg] rounded-2xl border border-white/20 bg-white/10 px-2.5 py-1.5 text-center backdrop-blur-md sm:px-4 sm:py-2">
                   <p className="text-sm font-bold text-orange-400 sm:text-base">
-                    2+
+                    4+
                   </p>
                   <p className="text-[10px] sm:text-xs">Years</p>
                 </div>
