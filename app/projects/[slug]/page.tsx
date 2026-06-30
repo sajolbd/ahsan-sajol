@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { FaEnvelope, FaExternalLinkAlt, FaWhatsapp, FaGithub } from "react-icons/fa";
 import { projects } from "../../../projects";
@@ -75,9 +76,14 @@ export default function ProjectDetails({ params }: ProjectDetailsProps) {
                 href={project.liveUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-sm font-semibold text-white transition hover:scale-105"
+                className="btn-slide-hover inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-sm font-semibold text-white transition hover:scale-105"
               >
-                Live Demo <FaExternalLinkAlt className="text-xs" />
+                <span className="relative z-10 flex items-center gap-2">
+                  <span>Live Demo</span>
+                  <span className="slide-arrow inline-block">
+                    <FaExternalLinkAlt className="text-xs" />
+                  </span>
+                </span>
               </a>
               {project.githubUrl && (
                 <a
@@ -236,9 +242,12 @@ export default function ProjectDetails({ params }: ProjectDetailsProps) {
 function ProjectPreview({ image, title }: { image: string; title: string }) {
   return (
     <div className="overflow-hidden rounded-xl border border-white/10 bg-white/5 shadow-2xl">
-      <img
+      <Image
         src={image}
         alt={`${title} project preview`}
+        width={800}
+        height={500}
+        priority
         className="h-full min-h-[260px] w-full object-cover sm:min-h-[330px]"
       />
     </div>

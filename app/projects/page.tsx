@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { projects } from "../../projects";
 import { FaGithub } from "react-icons/fa";
 import type { Metadata } from "next";
@@ -34,9 +35,11 @@ export default function ProjectsPage() {
                 aria-label={`View details for ${project.title}`}
               />
 
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
+                width={600}
+                height={192}
                 className="h-48 w-full object-cover"
               />
 
@@ -61,9 +64,11 @@ export default function ProjectsPage() {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-2 rounded-full text-xs font-semibold text-white shadow-lg transition duration-300 group-hover:scale-105">
-                    View Details
-                    <span className="group-hover:translate-x-1 transition duration-300" aria-hidden="true">-&gt;</span>
+                  <span className="btn-slide-hover inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-2 rounded-full text-xs font-semibold text-white shadow-lg transition duration-300 group-hover:scale-105">
+                    <span className="relative z-10 flex items-center gap-1.5">
+                      <span>View Details</span>
+                      <span className="slide-arrow inline-block" aria-hidden="true">-&gt;</span>
+                    </span>
                   </span>
 
                   {project.githubUrl && (

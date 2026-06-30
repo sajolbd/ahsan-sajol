@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { FaEnvelope, FaFacebookF, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa6";
 import { FaEye } from "react-icons/fa";
@@ -53,11 +54,14 @@ export default function Hero() {
           <div className="flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4 md:justify-start">
             <Link
               href="#projects"
-              className="rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-center font-medium shadow-lg transition hover:scale-105"
+              className="btn-slide-hover rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-center font-medium shadow-lg transition hover:scale-105"
             >
-              <span className="flex items-center gap-1">
+              <span className="relative z-10 flex items-center gap-1.5 justify-center">
                 <FaEye />
-                View Work <FaArrowDown size={10} />
+                <span>View Work</span>
+                <span className="slide-arrow inline-block">
+                  <FaArrowDown size={10} />
+                </span>
               </span>
             </Link>
 
@@ -102,9 +106,12 @@ export default function Hero() {
 
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="flex h-44 w-44 items-center justify-center overflow-hidden rounded-full border-4 border-orange-400 bg-orange-500 shadow-xl sm:h-60 sm:w-60 md:h-72 md:w-72">
-                <img
+                <Image
                   src="/images/ahsan-sajol.png"
                   alt="Portrait of Shamim Ahsan"
+                  width={288}
+                  height={288}
+                  priority
                   className="h-full w-full object-cover object-top mr-4 sm:mr-6 md:mr-10"
                 />
               </div>
@@ -114,7 +121,7 @@ export default function Hero() {
               <div className="absolute left-1/2 top-0 -translate-x-1/2">
                 <div className="rotate-[-360deg] rounded-2xl border border-white/20 bg-white/10 px-2.5 py-1.5 text-center backdrop-blur-md sm:px-4 sm:py-2">
                   <p className="text-sm font-bold text-orange-400 sm:text-base">
-                    30+
+                    50+
                   </p>
                   <p className="text-[10px] sm:text-xs">Projects</p>
                 </div>
@@ -123,7 +130,7 @@ export default function Hero() {
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
                 <div className="rotate-[-360deg] rounded-2xl border border-white/20 bg-white/10 px-2.5 py-1.5 text-center backdrop-blur-md sm:px-4 sm:py-2">
                   <p className="text-sm font-bold text-orange-400 sm:text-base">
-                    20+
+                    30+
                   </p>
                   <p className="text-[10px] sm:text-xs">Clients</p>
                 </div>

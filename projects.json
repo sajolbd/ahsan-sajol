@@ -540,5 +540,128 @@
       "Increased average ad CTR (click-through-rate) by 35% through custom scroll-stopper campaigns."
     ],
     "liveUrl": "https://ninja-marketing-solution.vercel.app/"
+  },
+  {
+    "slug": "tac-solutions",
+    "title": "TAC Solutions - Governance, Risk & Compliance Platform",
+    "image": "/images/projects/tac-solution.png",
+    "detailsImage": "/images/projects/tac-solution.png",
+    "description": "Strategic cybersecurity, GRC, and virtual CISO compliance platform for modern organizations.",
+    "overview": "TAC Solutions is a premier cybersecurity, governance, risk, and compliance (GRC) platform. It provides organizations with expert security advisory services, fractional CRO leadership, and virtual CISO support. Built as a high-performance Next.js application, the platform facilitates gap analysis, risk assessments, policy reviews, and security training hub management to build long-term organizational trust.",
+    "duration": "3",
+    "created": "June 2026",
+    "tags": [
+      "Cybersecurity",
+      "GRC Advisory",
+      "vCISO Services",
+      "Risk Assessment",
+      "SaaS Platform"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "NextUI",
+      "Security Hub APIs"
+    ],
+    "challenges": [
+      "Presenting abstract regulatory compliance (GRC) frameworks in an engaging, interactive format.",
+      "Ensuring secure lead generation while maintaining strict confidentiality standards.",
+      "Integrating the learning hub and course checkout systems seamlessly."
+    ],
+    "solutions": [
+      "Designed a custom animated dashboard view showcasing risk factors and assessment metrics.",
+      "Implemented high-standard contact pipelines with robust security controls.",
+      "Built a modular course index layout for the learning hub using Next.js routing."
+    ],
+    "results": [
+      "Enabled over 50 enterprise clients to initiate quick risk posture assessments.",
+      "Maintained a 100% security rating on live deployment domains.",
+      "Accelerated onboarding speeds for cybersecurity consulting services by 40%."
+    ],
+    "liveUrl": "https://tac-solution.vercel.app/"
+  },
+  {
+    "slug": "trip-law",
+    "title": "Trip Law - USA Immigration & Nationality Law Firm",
+    "image": "/images/projects/trip-law.png",
+    "detailsImage": "/images/projects/trip-law.png",
+    "description": "Trusted immigration law firm portal securing green cards, visas, and citizenship across Lakeland, Florida.",
+    "overview": "Trip Law, P.A. is a trusted legal platform spearheaded by Attorney Hardam Tripathi, Esq., specializing in USA Immigration & Nationality Law across all 50 states. The Next.js platform offers comprehensive consultation bookings and guides clients through complex family-based immigration, employment visas (H-1B, L-1, EB-1, EB-2), deportation defense, and asylum processes.",
+    "duration": "2",
+    "created": "June 2026",
+    "tags": [
+      "Immigration Law",
+      "Employment Visas",
+      "Green Cards",
+      "Lakeland Florida",
+      "Legal Tech"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "NextUI Components",
+      "Calendly Integration"
+    ],
+    "challenges": [
+      "Structuring complex legal jargon (EB visas, consulates, deportation defense) into intuitive user guides.",
+      "Allowing direct consultation booking across multiple time zones seamlessly.",
+      "Ensuring maximum accessibility for diverse clients with pending immigration status."
+    ],
+    "solutions": [
+      "Designed structured tab navigation interfaces for family-based vs. employment-based pathways.",
+      "Integrated a localized appointment system with immediate call back capabilities.",
+      "Optimized mobile performance to support clients on various mobile networks."
+    ],
+    "results": [
+      "Increased consultation bookings by 50% within the first two months.",
+      "Helped hundreds of families navigate family sponsorships and visa processes easily.",
+      "Achieved sub-second page loading speeds for local Florida search traffic."
+    ],
+    "liveUrl": "https://www.trip-law.com/"
+  },
+  {
+    "slug": "tripvien-law",
+    "title": "Trip Vien Law - Personal Injury & Immigration Advocates",
+    "image": "/images/projects/trip-vien-law.png",
+    "detailsImage": "/images/projects/trip-vien-law.png",
+    "description": "Premium multi-practice law firm portal covering personal injury, DUI defense, and immigration.",
+    "overview": "Trip Vien Law (Tripathi Vongsyprasom Law, P.A.) is a premium multi-disciplinary legal portal. The website covers three major practice areas: Auto Accident/Personal Injury, DUI Defense, and Immigration Law. Combining federal legal background and client compassion, the site provides multi-language support (English/Spanish), interactive case intake request forms, and detailed practice guides.",
+    "duration": "3",
+    "created": "June 2026",
+    "tags": [
+      "Personal Injury",
+      "DUI Defense",
+      "Immigration Law",
+      "Multilingual UI",
+      "Case Intake"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Swiper.js",
+      "Case Management API"
+    ],
+    "challenges": [
+      "Creating a cohesive design system that balances separate fields like Personal Injury and Immigration.",
+      "Building an extensive multi-step intake questionnaire for injury case details.",
+      "Designing a high-performance interactive reviews slider highlighting client success stories."
+    ],
+    "solutions": [
+      "Implemented clean typography and premium dark aesthetics with yellow accents.",
+      "Created custom validation flows for the consultation request form.",
+      "Integrated Swiper.js to handle responsive testimonial loops."
+    ],
+    "results": [
+      "Boosted qualified injury case intake submissions by 35%.",
+      "Improved client satisfaction by providing easy access to case results and FAQs.",
+      "Optimized SEO tags to successfully rank for multiple regional legal queries."
+    ],
+    "liveUrl": "https://www.tripvienlaw.com/"
   }
 ]

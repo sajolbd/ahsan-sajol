@@ -101,3 +101,52 @@ h6 {
   animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+/* Premium Dribbble-style Button Hover Animation */
+.btn-slide-hover {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.btn-slide-hover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #ea580c, #f97316); /* Swapped gradient fill */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: -1;
+}
+
+.btn-slide-hover:hover::before,
+.group:hover .btn-slide-hover::before {
+  transform: scaleX(1);
+}
+
+/* Arrow Slide-Out & Slide-In Micro-interaction */
+@keyframes arrow-slide-out-in {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  49% {
+    transform: translateX(180%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-180%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.btn-slide-hover:hover .slide-arrow,
+.group:hover .btn-slide-hover .slide-arrow {
+  animation: arrow-slide-out-in 0.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
