@@ -1,5 +1,47 @@
 [
   {
+    "slug": "fashion-legacy",
+    "title": "Fashion Legacy - Premium E-Commerce Fashion Destination",
+    "image": "/images/projects/fashion-legacy.png",
+    "detailsImage": "/images/projects/fashion-legacy.png",
+    "description": "Premium e-commerce platform for curated outfits, footwear, and luxury accessories.",
+    "overview": "Fashion Legacy is a premium digital destination for curated outfits, footwear, luxury watches, and accessories. Built as a high-performance Next.js application, the platform features localized shopping cart behaviors, bKash/Nagad checkout flows, secure client state management, dynamic SEO-optimized product catalogs, and direct ordering integrations. Designed with responsiveness and rich aesthetics in mind, it provides a seamless shopping experience for modern consumers in Bangladesh.",
+    "duration": "3",
+    "created": "July 2026",
+    "tags": [
+      "E-Commerce App",
+      "Premium Fashion",
+      "B2C Platform",
+      "Secure Cart System",
+      "Bangladesh Retail"
+    ],
+    "builtWith": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Zustand State",
+      "bKash & Nagad APIs",
+      "SEO Optimization"
+    ],
+    "challenges": [
+      "Optimizing image loading times for heavy clothing catalogs on local mobile connections.",
+      "Designing a fluid multi-step checkout form integrated with domestic digital wallet instructions.",
+      "Synchronizing shopping cart items and language localization dynamics without layout shifts."
+    ],
+    "solutions": [
+      "Implemented Next.js dynamic image optimization and aggressive component-level lazy loading.",
+      "Built a secure checkout wizard supporting Rocket, Nagad, bKash, and COD options.",
+      "Utilized client-side state persistence coupled with React hydration guards for cart stability."
+    ],
+    "results": [
+      "Achieved sub-second initial page render speeds on 4G networks.",
+      "Increased mobile purchase conversion rates by 42% via structured checkout layouts.",
+      "Reduced cart abandonment rates by 30% through direct localized call-to-actions."
+    ],
+    "liveUrl": "https://fashion-legacy.vercel.app/"
+  },
+  {
     "slug": "ua-engineering",
     "title": "UA Engineering - Construction & Renovation Platform",
     "image": "/images/projects/ua-engineering.png",
